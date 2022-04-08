@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -13,12 +12,11 @@
 int main(void)
 {
 
-	char word;
+	char low;
 
-for (word = 'a';word <= 'z'; word++)
-putchar(word);
+for (low = 'a'; low <= 'z'; low++)
+putchar(low);
 putchar('\n');
 
 return (0);
 }
-
