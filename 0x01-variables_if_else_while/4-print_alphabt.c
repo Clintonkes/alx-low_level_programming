@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -11,10 +11,10 @@
 
 int main(void)
 {
-        char low, e, q;
+	char low, e, q;
 
-        e = 'e';
-        q = 'q';
+	e = 'e';
+	q = 'q';
 
 for (low = 'a'; low <= 'z'; low++)
 {
