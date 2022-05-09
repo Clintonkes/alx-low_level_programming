@@ -1,5 +1,3 @@
-101-mul.c
-
 #include "main.h"
 
 /**
@@ -27,5 +25,5 @@ int i, j;
 	}
 	mul = atol(argv[1]) *  atol(argv[2]);
 	printf("%lu\n", mul);
-	return (0);
+return (0);
 }
